@@ -1,0 +1,250 @@
+/*
+List of Colors used:
+white
+black
+brown
+gainsboro
+*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Spectral&display=swap');
+@keyframes renew{
+  0%   {background-color: rosybrown;}
+  25%  {background-color: burlywood;}
+  50%  {background-color: sandybrown;}
+  100% {background-color: saddlebrown;}
+}
+@keyframes renew2{
+  from {
+    margin-left: 100%;
+      margin-top: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+      margin-bottom: 50;
+    width: 100%;
+  }
+}
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: black;
+    text-align: left;
+    margin: 2rem;
+    background-image: url(../img/body_bg2.jpg);
+    background-size: cover;
+}
+
+.masthead {
+    /*background-image: url(../img/bg.jpg);*/
+    animation-name: renew;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+ 
+    padding: 1.5rem;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: 'Spectral', serif;
+    color: white;
+    animation-name: renew2;
+    animation-duration: 4s;
+    
+ 
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    padding-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+nav {
+    background-color: gainsboro;
+    border: 2px solid black;
+}
+
+nav ul {
+    padding-top: 0.75rem;
+}
+
+nav ul li {
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:visited {
+    text-decoration: none;
+}
+
+main {
+    background-color: beige;
+    padding: 3.5%;
+}
+
+footer {
+   /*background-image: url(../img/bg.jpg);*/
+    padding: 1.5rem;
+    text-align: center;
+    animation-name: renew;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+ 
+ 
+    
+}
+
+.sizef {
+    font-size: 3.5rem;
+    margin-right: 3%;
+    color: white;
+}
+
+footer a:link,
+footer a:hover,
+footer a:active,
+footer a:visited {
+    text-decoration: none;
+     
+    
+}
+
+.ge_btns {
+    margin-bottom: 4%;
+}
+
+button {
+    width: 15%;
+}
+
+.btn{
+    border-radius: 50%;
+    border-width:thin;
+    border-color: black;
+}
+button img {
+    width: 100%;
+    height: auto;
+}
+
+.btns {
+    padding: 0;
+    margin: auto;
+    margin-right: 1%;
+}
+
+#active {
+    background-color: brown;
+}
+
+.ge_images img {
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    margin-top: 5%;
+    font-family: 'Spectral', serif;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.heading h3 {
+    font-size: 1.5rem;
+    color: brown;
+    font-weight: bold;
+}
+
+.text {
+    margin-top: 4%;
+}
+.text p {
+    font-size: 1.5em;
+    font-family: 'Karla', sans-serif;
+}
+
+@media screen and (min-width: 30rem) {
+    body {
+        max-width: 60rem;
+        margin: auto;
+        font-size: 1rem;
+    }
+
+    .masthead {
+        padding: 2rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul li a {
+        font-size: 1.75rem;
+        padding: 2.5rem;
+    }
+
+    button {
+        width: 6.5%;
+        
+    }
+
+    .content {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .ge_images {
+        width: 25%;
+        float: left;
+        padding-right: 3%;
+        padding-bottom: 1%;
+    }
+
+    .text {
+        margin-top: 0px;
+        float: none;
+        width: auto;
+    }
+
+    .heading {
+        width: 100%;
+        margin-top: 0;
+        padding-bottom: 0;
+        font-size: 2rem;
+    }
+
+    .heading h3 {
+        font-size: 2.5rem;
+    }
+
+    .text p {
+        font-size: 1.3em;
+    }
+}
