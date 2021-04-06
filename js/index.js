@@ -74,7 +74,7 @@ function eventHandler(ev) {
                                 <h3>${dataResource[0].heading}</h3>
                             </div>
                             <div class="ge_images">
-                                <img src="${dataResource[0].imgUrl}" alt="Keep Out Sunlight">
+                                <img src="${dataResource[0].imgUrl}" >
                             </div>
                             <div class="text">
                               <p>${dataResource[0].bodyText}</p>
@@ -84,7 +84,7 @@ function eventHandler(ev) {
                                 <h3>${dataResource[1].heading}</h3>
                             </div>
                             <div class="ge_images">
-                                <img src="${dataResource[1].imgUrl}" alt="Solar Heating System">
+                                <img src="${dataResource[1].imgUrl}" >
                             </div>
                             <div class="text">
                                 <p>${dataResource[1].bodyText}</p>
@@ -94,7 +94,7 @@ function eventHandler(ev) {
                                 <h3>${dataResource[2].heading}</h3>
                               </div>
                               <div class="ge_images">
-                                <img src="${dataResource[2].imgUrl}" alt="Avoid Electrical Heaters">
+                                <img src="${dataResource[2].imgUrl}" >
                               </div>
                               <div class="text">
                                 <p>${dataResource[2].bodyText}</p>
